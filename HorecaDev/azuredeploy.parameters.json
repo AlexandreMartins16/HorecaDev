@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "horecaType": {
+      "value": "Standard_GRS"
+    },
+    "HorecaDevName": {
+      "value": "Horeca"
+    },
+    "HorecaDevAdminUserName": {
+      "value": "HorecaAdmin"
+    },
+    "publicipDnsName": {
+      "value": "horecapublic"
+    },
+    "devbdAdminLogin": {
+      "value": "BdDev"
+    },
+    "sessionsName": {
+      "value": "BdSessions"
+    },
+    "sessionsEdition": {
+      "value": "Standard"
+    },
+    "sessionsRequestedServiceObjectiveName": {
+      "value": "S0"
+    },
+    "logsName": {
+      "value": "BdLogs"
+    },
+    "logsEdition": {
+      "value": "Standard"
+    },
+    "logsRequestedServiceObjectiveName": {
+      "value": "S0"
+    },
+    "outsystemsName": {
+      "value": "BdOutsys"
+    },
+    "outsystemsEdition": {
+      "value": "Standard"
+    },
+    "outsystemsRequestedServiceObjectiveName": {
+      "value": "S0"
+    }
+  }
+}
